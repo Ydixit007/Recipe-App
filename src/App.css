@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+        ::-webkit-scrollbar {
+           width: 0.5rem;
+           background: #675673;
+       }
+       
+        ::-webkit-scrollbar-thumb {
+           background: #FFBF73;
+       }
+       
+       .App {
+           min-height: 100vh;
+           background: rgb(46, 38, 50);
+           background: linear-gradient(45deg, rgba(46, 38, 50, 1) 0%, rgba(103, 86, 115, 1) 95%);
+       }
+       
+       .search-form {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           min-height: 10vh;
+       }
+       
+       .search-bar {
+           margin-top: 2rem;
+           margin-bottom: 2rem;
+           width: 50%;
+           border-radius: 10px;
+           height: 1rem;
+           padding: 10px;
+           border: none;
+       }
+       
+       .search-bar:focus {
+           outline: none;
+       }
+       
+       .search-button {
+           margin-top: 2rem;
+           margin-left: 10px;
+           margin-bottom: 2rem;
+           background: #e6685c;
+           padding: 0.8rem;
+           border: none;
+           border-radius: 10px;
+           color: white;
+       }
+       
+       .search-button:active {
+           background-color: #C33939;
+       }
+       
+       .search-button:focus {
+           outline: none;
+       }
+       
+       .search-button:hover {
+           background-color: #C33939;
+       }
+       
+       .recipes {
+           display: flex;
+           justify-content: space-around;
+           flex-wrap: wrap;
+       }
