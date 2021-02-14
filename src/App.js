@@ -36,6 +36,13 @@ function App() {
         <input className = "search-bar" type = "text" value={Search} onChange={updateSearch} />
         <button className = "search-button"type = "submit" > Get Recipe </button>
         </form >
+            <div className="notecont">
+            <div className="note">
+                <h6>
+                    please put a space after the name of ingredient you are searching for.
+                </h6>
+            </div>
+            </div>
             <div className="recipes">
                 {Recipes.map( recipe =>(
                     <Recipe 

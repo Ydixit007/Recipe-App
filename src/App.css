@@ -1,64 +1,88 @@
-        ::-webkit-scrollbar {
-           width: 0.5rem;
-           background: #675673;
-       }
-       
-        ::-webkit-scrollbar-thumb {
-           background: #FFBF73;
-       }
-       
-       .App {
-           min-height: 100vh;
-           background: rgb(46, 38, 50);
-           background: linear-gradient(45deg, rgba(46, 38, 50, 1) 0%, rgba(103, 86, 115, 1) 95%);
-       }
-       
-       .search-form {
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           min-height: 10vh;
-       }
-       
-       .search-bar {
-           margin-top: 2rem;
-           margin-bottom: 2rem;
-           width: 50%;
-           border-radius: 10px;
-           height: 1rem;
-           padding: 10px;
-           border: none;
-       }
-       
-       .search-bar:focus {
-           outline: none;
-       }
-       
-       .search-button {
-           margin-top: 2rem;
-           margin-left: 10px;
-           margin-bottom: 2rem;
-           background: #e6685c;
-           padding: 0.8rem;
-           border: none;
-           border-radius: 10px;
-           color: white;
-       }
-       
-       .search-button:active {
-           background-color: #C33939;
-       }
-       
-       .search-button:focus {
-           outline: none;
-       }
-       
-       .search-button:hover {
-           background-color: #C33939;
-       }
-       
-       .recipes {
-           display: flex;
-           justify-content: space-around;
-           flex-wrap: wrap;
-       }
+                               ::-webkit-scrollbar {
+                                  width: 0.5rem;
+                                  background: #675673;
+                              }
+                              
+                               ::-webkit-scrollbar-thumb {
+                                  background: #FFBF73;
+                              }
+                              
+                              .App {
+                                  min-height: 100vh;
+                                  background: rgb(46, 38, 50);
+                                  background: linear-gradient(45deg, rgba(46, 38, 50, 1) 0%, rgba(103, 86, 115, 1) 95%);
+                              }
+                              
+                              .search-form {
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                                  min-height: 10vh;
+                              }
+                              
+                              .search-bar {
+                                  margin-top: 2rem;
+                                  margin-bottom: 2rem;
+                                  width: 50%;
+                                  border-radius: 10px;
+                                  height: 1rem;
+                                  padding: 10px;
+                                  border: none;
+                              }
+                              
+                              .search-bar:focus {
+                                  outline: none;
+                              }
+                              
+                              .search-button {
+                                  margin-top: 2rem;
+                                  margin-left: 10px;
+                                  margin-bottom: 2rem;
+                                  background: #e6685c;
+                                  padding: 0.8rem;
+                                  border: none;
+                                  border-radius: 10px;
+                                  color: white;
+                              }
+                              
+                              .search-button:active {
+                                  background-color: #C33939;
+                              }
+                              
+                              .search-button:focus {
+                                  outline: none;
+                              }
+                              
+                              .search-button:hover {
+                                  background-color: #C33939;
+                              }
+                              
+                              .recipes {
+                                  display: flex;
+                                  justify-content: space-around;
+                                  flex-wrap: wrap;
+                              }
+                              
+                              .notecont {
+                                  height: 10vh;
+                                  width: 100%;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                              }
+                              
+                              .note {
+                                  border-radius: 20px;
+                                  background-color: #c33939d0;
+                                  height: 5vh;
+                                  width: 80%;
+                                  padding: 20px;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                              }
+                              
+                              .note h6 {
+                                  color: white;
+                                  font-family: 'Poppins', sans-serif;
+                              }
